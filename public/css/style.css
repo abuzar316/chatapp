@@ -1,0 +1,70 @@
+body{
+    background: #ddd;
+    display: flex;
+    height: 100vh;
+}
+.main-div{
+    background: #fff;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+.main-div .nav-bar{
+    background: lightseagreen;
+    padding: 10px;
+}
+.main-div .nav-bar h5{
+    color: #fff;
+}
+.main-div .textaria{
+    height: 400px;
+    overflow-y: auto;
+}
+.main-div .textaria .join-chat{
+    display: flex;
+    justify-content: center;    
+}
+.main-div .textaria .join-chat p{
+    display: inline-block;
+    width: auto;
+    background: #ddd;
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-size: 12px;
+    margin: 10px 0;
+}
+.main-div .textaria .resive-msg h6,.main-div .textaria .resive-msg p{
+    margin: 0;
+}
+.main-div .textaria .resive-msg{
+    background: #ddd;
+    width: 200px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 5px 5px;
+}
+.main-div .textaria .send-msg h6,.main-div .textaria .send-msg p{
+    margin: 0;
+}
+
+.main-div .textaria .send-msg{
+    background: lightseagreen;
+    color: #fff;
+    width: 200px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 5px 5px;
+}
+.send-msg{
+    padding: 10px;
+}
+.send-msg input{
+    border-radius: 30px;
+}
+.send-msg button{
+    border-radius: 30px;
+    background: lightseagreen;
+    border-color:lightseagreen ;
+    color: #fff;
+}
